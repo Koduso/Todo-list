@@ -1,0 +1,130 @@
+body{
+	background: #38404B;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 66px;
+	gap: 20px;
+}
+
+.doto-list-container{
+	padding-top: 200px;
+	padding-right: 80px;
+	padding-left: 80px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	flex-wrap: wrap;
+	gap: 60px;
+}
+
+.main-input{
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: 'Ubuntu', sans-serif;
+	border-style: none;
+	font-size:18px;
+	font-weight:bold;
+    background-color: transparent;
+    color: #94ADCF;
+    box-shadow: -2px -2px 6px 3px #272E38, 2px 2px 6px 3px #475261;
+    width: 578px;
+	height: 59px;
+    border-radius: 16px;
+}
+
+.main-input::placeholder{
+	color: #525D6D;
+}
+
+.delete-button{
+	cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	margin-left: 190px;
+	border-style: none;
+	width: 146px;
+	font-size: 18px;
+	height: 59px;
+	box-shadow: -2px -2px 6px 3px #475261, 2px 2px 6px 3px #272E38;
+	background-color: transparent;
+	border-radius: 16px;
+	color: #94ADCF;
+}
+
+.select-button{
+	cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	margin-left: 534px;
+	margin-top: -80px;
+	border-style: none;
+	width: 146px;
+	height: 59px;
+	font-size: 18px;
+	box-shadow: -2px -2px 6px 3px #475261, 2px 2px 6px 3px #272E38;
+	background-color: transparent;
+	border-radius: 16px;
+	color: #94ADCF;
+}
+
+.button-enter{
+	cursor: pointer;
+	margin-top: -140px;
+	margin-left: 620px;
+	border-style: none;
+	background-color: transparent;
+	width: 19px;
+}
+
+.todo-item{
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 120px;
+	cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	border-style: none;
+	width: 449px;
+    height: 59px;
+	font-size: 21px;
+	box-shadow: -2px -2px 6px 3px #475261, 2px 2px 6px 3px #272E38;
+	background-color: transparent;
+	border-radius: 16px;
+	color: #94ADCF;
+}
+
+[data-checked="true"]{
+	cursor: pointer;
+    text-decoration: line-through;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 120px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	border-style: none;
+	width: 449px;
+    height: 59px;
+	font-size: 21px;
+	box-shadow: -2px -2px 6px 3px #272E38, 2px 2px 6px 3px #475261;
+	background-color: transparent;
+	border-radius: 16px;
+	color: #94ADCF;
+}
+
+.circle{
+	cursor: pointer;
+    padding-right: 40px;
+	border-style: none;
+	background-color: transparent;
+	width: 19px;
+}
+
+.circle-complete{
+    padding-right: 40px;
+	border-style: none;
+	background-color: transparent;
+	width: 19px;
+}
